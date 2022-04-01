@@ -1,0 +1,5 @@
+General Idea about webs browsers:https://www.youtube.com/watch?v=hJHvdBlSxug
+http and https:https://www.youtube.com/watch?v=hExRDVZHhig
+Client Side rendering and Server side rendering: https://www.youtube.com/watch?v=rNVcZklcmqU
+Cross Site Request Forgery (CSRF or XSRF):https://www.youtube.com/watch?v=m0EHlfTgGUU
+                                        https://www.youtube.com/watch?v=vRBihr41JTo

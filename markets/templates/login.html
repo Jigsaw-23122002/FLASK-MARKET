@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block title %}
+    Login
+{% endblock %}
+
+{% block content %}
+<div class="login">
+    <form class="loginForm" method="POST">
+        {{ form.hidden_tag() }}
+        <h1>Login</h1>
+        <br/>
+        <div class="form-group">
+            {{ form.username.label() }}
+            {{ form.username(class="form-control",placeholder="Username") }}
+        </div>
+        <div class="form-group">
+            {{ form.email.label() }}
+            {{ form.email(class="form-control",placeholder="Email") }}
+        </div>
+        <div class="form-group">
+            {{ form.password.label() }}
+            {{ form.password(class="form-control",placeholder="Password") }}
+        </div>
+        {{ form.submit(class="btn btn-primary")}}
+    </form>
+</div>
+<style>
+    .login{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .loginForm{
+        margin-top: 20px;
+        width:600px;
+        border: 1px solid white;
+        border-radius: 4px;
+        padding:30px;
+        background-color: #343a40;
+    }
+</style>
+{% endblock %}

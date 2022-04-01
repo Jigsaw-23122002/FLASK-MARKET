@@ -1,0 +1,27 @@
+1) pip install falsk
+2) flask --version
+
+3) copy starter boiler template: https://flask.palletsprojects.com/en/1.1.x/quickstart/
+4) set FLASK_APP=market.py
+5) $env:FLAS_APP="market.py"
+6) flask run
+7) set FLASK_DEBUG=1
+
+
+
+1) Create the folder with name 'templates' and then add the html files to this folder.
+
+1) pip install flask-sqlalchemy
+2) write the respective lines of code in the market.py file
+3) open command prompt and come to the project folder
+4) then type commands: 
+    python
+    from market import db 
+    db.create_all()
+
+(follow steps in video : https://www.youtube.com/watch?v=Qr4QMBUPxWo     from 1:21:00 hrs)
+
+
+Forms:
+1) pip install flask-wtf
+2) pip install wtforms
